@@ -51,7 +51,8 @@ form button {
     border-radius: 2rem;
 }
 form input{
-    width: 210px;
+    width: 220px;
+    /* width: 500px; */
 }
 
 
@@ -70,12 +71,13 @@ form button:hover {
 }
 
 .fa-plus-circle {
-    margin-top: 0.3rem;
-    margin-bottom: 0.3rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
     margin-left: -8px;
     margin-left: -8px;
     border-radius: 0.5%;
 }
+
 
 .todo-container {
     display: flex;
@@ -194,4 +196,6 @@ select {
         font-size: 1.8rem;
     }
 }
-
+.credits{
+    text-align: center;
+  }
