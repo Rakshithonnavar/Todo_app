@@ -14,14 +14,18 @@ body {
 .todo-input{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 200;
+    font-weight: 200;
+    
+    font-weight: 200;   
     
 }
+
 header {
     font-size: 1.2rem;
     font-weight: bold;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     left: -100%;
-    animation: slide-in-animation 1s forwards;
+    animation: slide-in-animation 1s forwards;  
 }
 @keyframes slide-in-animation {
     from {
@@ -32,13 +36,13 @@ header {
     }
 }
 
-
 header, 
 form {
     min-height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
+     
 }
 
 form input, 
@@ -51,8 +55,8 @@ form button {
     border-radius: 2rem;
 }
 form input{
-    width: 220px;
-    /* width: 500px; */
+    width: 232px;
+    /* width: 500px;  */
 }
 
 
@@ -62,6 +66,9 @@ form button {
     cursor: pointer;
     transition: all 0.3 ease;
     margin-left: 0.5rem;
+    margin-left: 0.5rem;
+    
+    margin-left: 0.5rem; 
     
 }
 
@@ -83,6 +90,7 @@ form button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .todo-list {
@@ -103,10 +111,8 @@ form button:hover {
     border-radius: 2rem;  
 }
 
-.todo li {
-    flex: 1;
 
-}
+
 
 .trash-btn, 
 .complete-btn {
@@ -155,11 +161,10 @@ select {
 }
 
 .select {
-    margin: 1rem;
+    position: relative;
     position: relative;
     overflow: hidden;
     border-radius: 50px;
-    width: 177px;
 }
 
 select {
@@ -169,8 +174,13 @@ select {
     cursor: pointer;
     padding: 1rem;
     font-weight: bold;
+    font-weight: bold;
+    width: 190px;
 }
+.todo li {
+    flex: 1;
 
+}
 
 .select::after {
     content: "\25BC";
@@ -198,4 +208,7 @@ select {
 }
 .credits{
     text-align: center;
+    font-size: small;
+    padding-top: 127px;
   }
+  
