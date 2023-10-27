@@ -49,14 +49,16 @@ form input,
 form button {
     padding: 0.5rem;
     padding-left: 1rem;
-    font-size: 2.3rem;
+    font-size: 1.6rem;
     border: none;
     background: white;
     border-radius: 2rem;
+    height: 3.41rem;
+
 }
 form input{
-    width: 232px;
-    /* width: 500px;  */
+    width: 236.5px;
+     /* width: 330px;   */
 }
 
 
@@ -84,7 +86,6 @@ form button:hover {
     margin-left: -8px;
     border-radius: 0.5%;
 }
-
 
 .todo-container {
     display: flex;
@@ -167,12 +168,12 @@ select {
 select {
     color:black;
     width: 10rem;
-    height: 3.2rem;
+    height: 2.9rem;
     cursor: pointer;
     padding: 1rem;
     font-weight: bold;
     font-weight: bold;
-    width: 190px;
+    width: 186px;
 }
 .todo li {
     flex: 1;
